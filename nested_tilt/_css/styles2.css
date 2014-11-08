@@ -1,0 +1,19 @@
+body { background-color: #333; margin:0px; }
+#container {
+	background-color: #eee;
+	/*padding:25px;*/
+
+	margin-right: auto;
+	margin-left: auto;
+
+	/*border-radius: 10px;*/
+}
+.nested {
+	width: 800px;
+	margin-left:auto;
+	margin-right:auto;
+}
+header { background-color: #469d45; padding:25px; }
+nav { background-color: #c0631e; padding:25px; }
+article { background-color: #da66d3; padding:25px; }
+footer { background-color: #4fc249; padding:25px; }

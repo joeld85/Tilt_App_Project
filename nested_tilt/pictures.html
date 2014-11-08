@@ -1,0 +1,104 @@
+<html>
+	<head>
+		<title>Tilt</title>
+		<link rel="stylesheet" href="_css/styles.css">
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<div class="nested">
+					<img src="_images/tilt-logo.png" alt width="122" height="69">
+					<h2>Pictures</h2>
+					
+				</div>
+			</header>
+		
+			<nav>
+				<div class="nested">
+
+					  
+				</div>
+			</nav>
+			
+
+			<article>
+				<div class="nested">
+					<p> pictures </p>
+
+					<div class="slides">
+						<img src="_images/pic01.jpg">
+						<img src="_images/pic02.jpg">
+						<img src="_images/pic03.jpg">
+					</div>
+					<nav>
+					<div class="nested">
+
+						  <a class="photobutton" href="rules.html"><p>Back To Rules</p></a> 
+					</div>
+					</nav>
+				</div>
+			</article>
+			<footer>
+				<div class="nested">
+					&copy; 2014 Tilt App. All rights reserved.
+				</div>
+			</footer>
+		</div>
+		<script type="text/javascript" src="_js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript">
+
+			// 1. Wait for our toys
+			$(document).ready(setThingsUp);
+
+
+			// 2. Set em up
+			function setThingsUp() {
+				console.log('set to jet');
+
+				// start the party
+				setTimeout(slideTheSlides, 3000);
+			}
+
+
+			// 3. The magic that had us embark on this journey
+			function slideTheSlides() {
+				
+				var theLast = $('.slides img:last');
+
+				theLast.animate({'opacity':'0'},1000,function(){ 
+					theLast.prependTo('.slides'); 
+					theLast.css({'opacity':'1'}); 
+					setTimeout(slideTheSlides, 2000); 
+				});
+			}
+
+			
+			function addMeUp(arg1, arg2) {
+				console.log(arg1 + arg2);
+				console.log('Multiply');
+				console.log(arg1 * arg2);
+			}
+
+			addMeUp(100, 10);
+			addMeUp(1000, 5000);
+			addMeUp(300, 500);
+
+			// JQuery
+			function Jquery() {}
+			function $(selector) {}
+
+			$('img').animate(styles, duration, callbackFN);
+			$('img').animate({'opacity':'0'}, 1000, function(){});
+
+		</script>
+	</body>
+</html>
+
+
+

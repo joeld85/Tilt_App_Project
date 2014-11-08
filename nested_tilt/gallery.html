@@ -1,0 +1,110 @@
+<html>
+	<head>
+		<title>The Box Models :: Measuring Boxes</title>
+		<link rel="stylesheet" href="_css/styles2.css">
+		<style>
+			.slides { 
+				outline:solid 10px red; 
+				position: relative;
+				height:350px; 
+			}
+			.slides img { 
+				position: absolute;
+				left:0px;
+				top:0px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<div class="nested">
+					<h1>Gallery</h1>
+					<h2>Margins, Border, Padding, Width and Height-Oh My!!</h2>
+				</div>
+			</header>
+			<nav>
+				<div class="nested">
+					<a href="nested.html">Home</a>
+					<a href="about.html">About</a>
+					<a href="gallery.html">Gallery</a>
+					<a href="contact.html">Contact</a>
+				</div>
+			</nav>
+			<article>
+				<div class="nested">
+					<div class="slides">
+						<img src="_images/gallery/gallery-01.jpg">
+						<img src="_images/gallery/gallery-02.jpg">
+						<img src="_images/gallery/gallery-03.jpg">
+						<img src="_images/gallery/gallery-04.jpg">
+						<img src="_images/gallery/gallery-05.jpg">
+						<img src="_images/gallery/gallery-06.jpg">
+						<img src="_images/gallery/gallery-07.jpg">
+						<img src="_images/gallery/gallery-08.jpg">
+						<img src="_images/gallery/gallery-09.jpg">
+						<img src="_images/gallery/gallery-10.jpg">
+					</div>
+				</div>
+			</article>
+			<footer>
+				<div class="nested">
+					&copy; 2013 Measuring Boxes. All rights reserved.
+				</div>
+			</footer>
+		</div>
+		<script type="text/javascript" src="_js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript">
+
+			// 1. Wait for our toys
+			$(document).ready(setThingsUp);
+
+
+			// 2. Set em up
+			function setThingsUp() {
+				console.log('set to jet');
+
+				// start the party
+				setTimeout(slideTheSlides, 3000);
+			}
+
+
+			// 3. The magic that had us embark on this journey
+			function slideTheSlides() {
+				// console.log('sliding');
+				// get a handle on our last slide
+				var theLast = $('.slides img:last');
+
+				theLast.animate({'opacity':'0'},1000,function(){ 
+					theLast.prependTo('.slides'); 
+					theLast.css({'opacity':'1'}); 
+					setTimeout(slideTheSlides, 2000); 
+				});
+			}
+
+			// Function Declaration
+			// anonymous
+			// function (){}
+			function addMeUp(arg1, arg2) {
+				console.log(arg1 + arg2);
+				console.log('Multiply');
+				console.log(arg1 * arg2);
+			}
+
+			addMeUp(100, 10);
+			addMeUp(1000, 5000);
+			addMeUp(300, 500);
+
+			// JQuery
+			function Jquery() {}
+			function $(selector) {}
+
+			$('img').animate(styles, duration, callbackFN);
+			$('img').animate({'opacity':'0'}, 1000, function(){});
+
+		</script>
+	</body>
+</html>
+
+
+
