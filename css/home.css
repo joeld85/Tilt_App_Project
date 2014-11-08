@@ -34,7 +34,7 @@
 	background-color: #FFFFFF;
 }
 
-#page
+#page   /*i think this is the wrapper for txt in the rows*/
 {
 	z-index: 1;
 	width: 380px;
@@ -43,30 +43,35 @@
 	border-style: none;
 	border-color: #000000;
 	background-color: transparent;
+	border: solid 4px red;
 }
 
 #page_position_content
 {
 	margin-top: -3px;
 	margin-bottom: -19px;
+
 }
 
-#u281
+#u281 /*i think this is the wrapper for logo header*/
 {
 	z-index: 2;
 	padding-bottom: 11px;
 }
 
-#u284
+#u284 /*this is the tilt image/logo*/
 {
 	z-index: 8;
 	width: 122px;
 	margin-right: -10000px;
 	margin-top: 19px;
 	left: 19px;
+	/*border: solid 4px yellow;*/
+
+
 }
 
-#u282-4
+#u282-4 /*this is the title for Pinball Machines*/
 {
 	z-index: 4;
 	width: 202px;
@@ -74,20 +79,25 @@
 	margin-right: -10000px;
 	margin-top: 57px;
 	left: 158px;
+	/*border: solid 4px yellow;
+*/
 }
 
 #u281-bw
 {
 	z-index: 2;
 	height: 90px;
+
 }
 
-#menuu1097
+#menuu1097 /*this wraps all the gray rows*/
 {
 	z-index: 16;
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
+		
+
 }
 
 #u1105
@@ -95,20 +105,23 @@
 	background-color: transparent;
 }
 
-#u1106
+#u1106 /*this wraps around 24 gray box*/
 {
-	background-color: #C4C4C4;
-	padding-bottom: 17px;
+	background-color: #C4C4C4; /*the is the gray color around 24*/
+	padding-bottom: 17px; /*this is the spacing below "24" txt*/
 	position: relative;
+
+	/*border: solid 4px yellow;*/
+
 }
 
-#u1106:hover
+#u1106:hover /*this effects hover of 24*/
 {
-	background-color: #999999;
+	background-color: red;
 	margin: 0px;
 }
 
-#u1107-4
+#u1107-4 /*the effects the 24 txt*/
 {
 	min-height: 22px;
 	border-style: none;
@@ -116,19 +129,21 @@
 	background-color: transparent;
 	text-align: left;
 	font-size: 18px;
-	color: #000000;
+	color: blue;
 	line-height: 22px;
 	font-family: Geneva, Verdana, Lucida Sans, Lucida Sans Unicode, sans-serif;
 	position: relative;
-	top: 8px;
+	top: 8px; /*this effects space above "24" text*/
 }
 
-#u1106:hover #u1107-4
+#u1106:hover #u1107-4 /*this also effects hover of 24*/
 {
 	padding-top: 0px;
 	padding-bottom: 0px;
 	min-height: 22px;
 	margin: 0px;
+	
+
 }
 
 #u1106:active #u1107-4
