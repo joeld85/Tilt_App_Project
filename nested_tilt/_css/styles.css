@@ -21,9 +21,6 @@ body { background-color: #fff;
 	text-decoration: none;	
 
 }
-.clearfix{
-	position: relative;
-}
 
 #page {
 	z-index: 1;
@@ -78,12 +75,9 @@ body { background-color: #fff;
 	/*border: solid 1px red;*/
 
 }
-.buttons{
-	position: relative;
-}
 
 .rules {
-	margin: 25px;
+	margin: 10px;
 	padding-bottom: 20px;
 
 	min-width: 300px;
@@ -129,37 +123,30 @@ header img {
 	font-size: 14pt;
 }
 ul{
-	position: relative;
-	padding: 20px;
+	width: 100%;
+	margin-left: 30px;
+	padding: 0px;
 	display: inline-block;
-
-	padding-bottom: 30px;
+	text-decoration: none;
+	/*border: solid 20px red;*/
 }
 li {
-	position: relative;
 	background-color: #C4C4C4;
 	border: solid 1px #fff;
-	padding: 10px;
-	padding-bottom: 50px;
-	margin-bottom: 40px;
+	padding: 0;
+	margin: 0;
 	text-decoration: none;
 	color: #444;
 	margin-left:auto;
 	margin-right:auto;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 
-	/*border: solid 1px yellow;*/
-
 }
 li p {
-	position: relative;
 	margin-left: 20px;
 	text-decoration: none;
-
 }
-
 footer { 
-	position: relative;
 	background-color: #000; 
 	padding:25px; 
 	color: #fff;
@@ -179,7 +166,9 @@ footer {
 	margin: auto;
 	
 }
-
+.ui-menu { 
+	width: 100%; 
+}
 
 
 
