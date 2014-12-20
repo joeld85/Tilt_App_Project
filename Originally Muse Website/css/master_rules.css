@@ -1,0 +1,51 @@
+#u398-4
+{
+	background-color: transparent;
+	font-size: 18px;
+	color: #FFFFFF;
+	line-height: 22px;
+	font-family: Geneva, Verdana, Lucida Sans, Lucida Sans Unicode, sans-serif;
+	position: relative;
+}
+
+#u402
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: #7F7F7F;
+	opacity: 0.42;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=42)";
+	filter: alpha(opacity=42);
+}
+
+#u404
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: #6AC7B8;
+}
+
+#u405-4
+{
+	background-color: transparent;
+	font-size: 18px;
+	color: #000000;
+	line-height: 22px;
+	font-family: Geneva, Verdana, Lucida Sans, Lucida Sans Unicode, sans-serif;
+	position: relative;
+}
+
+#u399,#u395-191
+{
+	background-color: transparent;
+	position: relative;
+}
+
+#u396,#u397
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: #000000;
+}
+

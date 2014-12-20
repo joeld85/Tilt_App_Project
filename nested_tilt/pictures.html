@@ -1,104 +1,62 @@
-<html>
-	<head>
-		<title>Tilt</title>
-		<link rel="stylesheet" href="_css/styles.css">
-		<style>
-			* {
-				box-sizing: border-box;
-			}
-			
-		</style>
-	</head>
-	<body>
-		<div id="container">
-			<header>
-				<div class="nested">
-					<img src="_images/tilt-logo.png" alt width="122" height="69">
-					<h2>Pictures</h2>
-					
-				</div>
-			</header>
+<!doctype html>
+<html class="html" lang="en">
+<head>
+	  <meta charset="utf-8">
+	  <title>Tilt 2</title>
+	<link rel="stylesheet" href="_css/styles.css">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+	  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+	 <script src="scripts/jquery.main.js" type="text/javascript"></script>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	 <script type="text/javascript" src="_js/responsiveslides.min.js"></script>
+	 
+</head>
+
+<body>
 		
-			<nav>
-				<div class="nested">
 
-					  
-				</div>
-			</nav>
-			
+	<div class="clearfix" id="page">
+		<div class="masthead" id="tilt_logo">
 
-			<article>
-				<div class="nested">
-					<p> pictures </p>
+			<a class"icon" id"tilt_icon" href="tilt 2.html">
+			<!-- image -->
+			<img src="_images/tilt logo-tk02.png" alt="" width="122" height="69"/></a>
+			<p>Pinball Pics</p>
 
-					<div class="slides">
-						<img src="_images/pic01.jpg">
-						<img src="_images/pic02.jpg">
-						<img src="_images/pic03.jpg">
-					</div>
-					<nav>
-					<div class="nested">
+		</div>			
+			<h1>Back to the Future</h1>
+		<div id="wrapper">
 
-						  <a class="photobutton" href="rules.html"><p>Back To Rules</p></a> 
-					</div>
-					</nav>
-				</div>
-			</article>
-			<footer>
-				<div class="nested">
-					&copy; 2014 Tilt App. All rights reserved.
-				</div>
-			</footer>
+			<ul class="rslides" id="slider3">
+		      <li><img src="_images/BTTF01.jpg" alt=""></li>
+		      <li><img src="_images/BTTF02.jpg" alt=""></li>
+		      <li><img src="_images/BTTF03.jpg" alt=""></li>
+		    </ul>
+
+		    <!-- Slideshow 3 Pager -->
+		    <ul id="slider3-pager">
+		      <li><a href="#"><img src="_images/BTTF01_thumb.jpg" alt=""></a></li>
+		      <li><a href="#"><img src="_images/BTTF02_thumb.jpg" alt=""></a></li>
+		      <li><a href="#"><img src="_images/BTTF03_thumb.jpg" alt=""></a></li>
+		    </ul>
+
 		</div>
-		<script type="text/javascript" src="_js/jquery-1.10.2.min.js"></script>
-		<script type="text/javascript">
 
-			// 1. Wait for our toys
-			$(document).ready(setThingsUp);
+	</div>
 
+		<script>
+		   $(function () {
 
-			// 2. Set em up
-			function setThingsUp() {
-				console.log('set to jet');
+	      // Slideshow 3
+	      $("#slider3").responsiveSlides({
+	        manualControls: '#slider3-pager',
+	        maxwidth: 540
+	      });
 
-				// start the party
-				setTimeout(slideTheSlides, 3000);
-			}
-
-
-			// 3. The magic that had us embark on this journey
-			function slideTheSlides() {
-				
-				var theLast = $('.slides img:last');
-
-				theLast.animate({'opacity':'0'},1000,function(){ 
-					theLast.prependTo('.slides'); 
-					theLast.css({'opacity':'1'}); 
-					setTimeout(slideTheSlides, 2000); 
-				});
-			}
-
-			
-			function addMeUp(arg1, arg2) {
-				console.log(arg1 + arg2);
-				console.log('Multiply');
-				console.log(arg1 * arg2);
-			}
-
-			addMeUp(100, 10);
-			addMeUp(1000, 5000);
-			addMeUp(300, 500);
-
-			// JQuery
-			function Jquery() {}
-			function $(selector) {}
-
-			$('img').animate(styles, duration, callbackFN);
-			$('img').animate({'opacity':'0'}, 1000, function(){});
-
+	    });
 		</script>
-	</body>
+</body>
+
 </html>
-
-
-
