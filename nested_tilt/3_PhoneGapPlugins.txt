@@ -1,0 +1,11 @@
+
+
+My app that I would like to continue building is called Tilt. It’s a pinball rule sheet app and allows users to scroll through different machines and view the rules on how to play each game.
+
+PhoneGap Plugins
+
+1. I will definitely use the camera plugin. I want users to be able to take pictures of high scores, machines, and locations and be able to upload them.
+
+2. My second choice is “Social Sharing.” People not only want to play pinball but they would like to have the ability to share content to their social media.
+
+3. Having a keyboard is essential. I will like to add a magnifying icon to allow users to search for a pinball machine. The keyboard will come into use by allowing the user to simply type their desired machine.

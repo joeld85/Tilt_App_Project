@@ -1,0 +1,344 @@
+.version.pictures /* version checker */
+{
+	color: #00001B;
+	background-color: #46B305;
+}
+
+@-ms-viewport
+{
+	width: 380px;
+}
+
+@-webkit-viewport
+{
+	width: 380px;
+}
+
+@-o-viewport
+{
+	width: 380px;
+}
+
+@-moz-viewport
+{
+	width: 380px;
+}
+
+@viewport
+{
+	width: 380px;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 380px;
+	min-height: 570px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+}
+
+#page_position_content
+{
+	margin-top: -3px;
+	margin-bottom: -19px;
+}
+
+#u628
+{
+	z-index: 2;
+	padding-bottom: 11px;
+}
+
+#u631
+{
+	z-index: 4;
+	width: 122px;
+	margin-right: -10000px;
+	margin-top: 19px;
+	left: 19px;
+}
+
+#u971-4
+{
+	z-index: 45;
+	width: 202px;
+	min-height: 31px;
+	margin-right: -10000px;
+	margin-top: 57px;
+	left: 158px;
+}
+
+#u628-bw
+{
+	z-index: 2;
+	height: 90px;
+}
+
+#u750
+{
+	z-index: 39;
+	height: 12px;
+}
+
+#u750-bw
+{
+	z-index: 39;
+	margin-top: -1px;
+	margin-bottom: -1px;
+	height: 12px;
+}
+
+#u751
+{
+	z-index: 40;
+	padding-bottom: 8px;
+}
+
+#u752-4
+{
+	z-index: 41;
+	width: 202px;
+	min-height: 22px;
+	margin-right: -10000px;
+	margin-top: 10px;
+	left: 18px;
+}
+
+#u751-bw
+{
+	z-index: 40;
+	margin-top: -2px;
+	margin-bottom: -2px;
+	height: 32px;
+}
+
+#slideshowu718
+{
+	z-index: 6;
+	width: 0.01px;
+	height: 400px;
+	top: -8px;
+	margin-bottom: -8px;
+}
+
+#u734popup
+{
+	z-index: 7;
+}
+
+#u737
+{
+	z-index: 8;
+	width: 381px;
+	height: 360px;
+	margin-right: -10000px;
+}
+
+#u734,#u737_clip
+{
+	width: 381px;
+	height: 360px;
+}
+
+#u737_img
+{
+	margin-left: 1px;
+	margin-top: -35px;
+	margin-bottom: -36px;
+}
+
+#u739
+{
+	z-index: 10;
+	width: 381px;
+	height: 360px;
+	margin-right: -10000px;
+}
+
+#u735
+{
+	z-index: 12;
+	width: 381px;
+	height: 360px;
+	margin-right: -10000px;
+}
+
+#u720popup
+{
+	z-index: 14;
+}
+
+#u720
+{
+	width: 299px;
+	top: 360px;
+}
+
+#u721-4
+{
+	z-index: 15;
+	width: 279px;
+	min-height: 20px;
+	padding: 10px;
+	margin-right: -10000px;
+}
+
+#u723-4
+{
+	z-index: 19;
+	width: 279px;
+	min-height: 20px;
+	padding: 10px;
+	margin-right: -10000px;
+}
+
+#u722-4
+{
+	z-index: 23;
+	width: 279px;
+	min-height: 20px;
+	padding: 10px;
+	margin-right: -10000px;
+}
+
+#u719-4popup
+{
+	z-index: 27;
+}
+
+#u719-4
+{
+	width: 48px;
+	min-height: 20px;
+	padding: 10px;
+	top: 360px;
+	left: 282px;
+}
+
+#u732-4popup
+{
+	z-index: 31;
+}
+
+#u732-4
+{
+	width: 10px;
+	min-height: 20px;
+	padding: 10px;
+	top: 360px;
+	left: 250px;
+}
+
+#u731-4popup
+{
+	z-index: 35;
+}
+
+#u731-4
+{
+	width: 10px;
+	min-height: 20px;
+	padding: 10px;
+	top: 360px;
+	left: 351px;
+}
+
+#buttonu983
+{
+	z-index: 49;
+	width: 139px;
+	border-color: #787878;
+	background-color: #6CC4B6;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+	padding-bottom: 4px;
+	margin-left: 121px;
+	margin-top: 18px;
+	position: relative;
+}
+
+#buttonu983:hover
+{
+	background-color: #545454;
+	margin: 18px 0px 0px 121px;
+}
+
+#u984-4
+{
+	z-index: 50;
+	width: 119px;
+	min-height: 23px;
+	background-color: transparent;
+	color: #3C3C3C;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-align: center;
+	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 12px;
+	left: 12px;
+}
+
+#buttonu983:hover #u984-4
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 23px;
+	margin: 12px -10000px 0px 0px;
+}
+
+#buttonu983.ButtonSelected #u984-4
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 23px;
+	margin: 12px -10000px 0px 0px;
+}
+
+#buttonu983:hover #u984-4 p
+{
+	color: #FFFFFF;
+	visibility: inherit;
+}
+
+#buttonu983.ButtonSelected #u984-4 p
+{
+	color: #3C3C3C;
+	visibility: inherit;
+}
+
+#u629
+{
+	z-index: 3;
+	height: 48px;
+}
+
+#u629-bw
+{
+	z-index: 3;
+	margin-top: 20px;
+	height: 50px;
+}
+
+body
+{
+	position: relative;
+	min-width: 380px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+
